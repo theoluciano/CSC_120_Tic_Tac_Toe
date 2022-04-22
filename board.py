@@ -1,6 +1,6 @@
-board = [['_', '_', '_'],
-         ['_', '_', '_'],
-         ['_', '_', '_']]
+board = [['-', '-', '-'],
+         ['-', '-', '-'],
+         ['-', '-', '-']]
 
 
 def print_board():
@@ -8,4 +8,8 @@ def print_board():
         print(i)
 
 
-print_board()
+def main():
+    print_board()
+
+
+main()
