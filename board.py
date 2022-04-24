@@ -13,12 +13,12 @@ def player_one_move():
         else:
             board[player_one_row][player_one_column] = "X"
             print_board()
-            if check_victory():
-                print("Player One Wins!")
-            elif check_tie():
-                print("No more available moves. It's a tie!")
-            else:
-                player_two_move()
+            # if check_victory():
+            #     print("Player One Wins!")
+            # elif check_tie():
+            #     print("No more available moves. It's a tie!")
+            # else:
+            player_two_move()
     except:
         print("Invalid entry! Please try again.")
         player_one_move()
@@ -34,12 +34,12 @@ def player_two_move():
         else:
             board[player_two_row][player_two_column] = "O"
             print_board()
-            if check_victory():
-                print("Player Two Wins!")
-            elif check_tie():
-                print("No more available moves. It's a tie!")
-            else:
-                player_one_move()
+            # if check_victory():
+            #     print("Player Two Wins!")
+            # elif check_tie():
+            #     print("No more available moves. It's a tie!")
+            # else:
+            player_one_move()
     except:
         print("Invalid entry! Please try again.")
         player_two_move()
